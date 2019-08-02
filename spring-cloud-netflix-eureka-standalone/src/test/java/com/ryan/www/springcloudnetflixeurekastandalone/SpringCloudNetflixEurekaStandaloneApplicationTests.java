@@ -17,7 +17,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringCloudNetflixEurekaStandaloneApplication.class, webEnvironment = RANDOM_PORT, properties = {
         "spring.jmx.enabled=true", "management.security.enabled=false",
-        "management.endpoints.web.exposure.include=*","server.port=9000" })
+        "management.endpoints.web.exposure.include=*" })
 public class SpringCloudNetflixEurekaStandaloneApplicationTests {
 
 
