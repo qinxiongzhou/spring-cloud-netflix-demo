@@ -16,6 +16,7 @@
 
     <modules>
         <module>spring-cloud-netflix-eureka-standalone</module>
+        <module>spring-cloud-netflix-eureka-peer</module>
     </modules>
 
 
